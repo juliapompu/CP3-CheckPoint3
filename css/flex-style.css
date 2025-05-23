@@ -1,4 +1,4 @@
-/* Estilo geral com tema claro e sofisticado */
+/* Estilo geral */
 body {
     margin: 0;
     font-family: 'Helvetica Neue', sans-serif;
@@ -10,7 +10,7 @@ body {
     width: 110px;
   }
 
-  /* Header */
+  /* Cabeça */
   .header {
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ body {
     position: relative;
   }
    
-  /* Pseudo-classe com efeito underline animado */
+  /* Pseudo-classe */
   .nav a::after {
     content: '';
     position: absolute;
@@ -44,7 +44,7 @@ body {
     width: 100%;
   }
    
-  /* Seção destaque */
+  /* Seção que muda o Texto */
   .texto {
     text-align: center;
     padding: 2em;
@@ -56,7 +56,7 @@ body {
     color: #567d70;
   }
    
-  /* Cards */
+  /* Imagens */
   .quadrado {
     display: flex;
     justify-content: space-around;
@@ -75,7 +75,7 @@ body {
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
    
-  /* Transformações com hover */
+  /* Transformações*/
   .img:hover {
     transform: translate(50px, 20px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
@@ -83,7 +83,7 @@ body {
  
  
  
-  /* Footer */
+  /* Final da página */
   .footer {
     background: #bfded3;
     color: #1d1d1d;
