@@ -1,0 +1,92 @@
+/* Estilo geral com tema claro e sofisticado */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #f3f8f7;
+    color: #2b2b2b;
+  }
+
+  #Imgvinho {
+    width: 110px;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #dfece6;
+    color: #1d1d1d;
+    padding: 1em 2em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+   
+  .nav a {
+    color: #2b2b2b;
+    margin-left: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+  }
+   
+  /* Pseudo-classe com efeito underline animado */
+  .nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0%;
+    height: 2px;
+    background: #68b684;
+    transition: width 0.3s;
+  }
+  .nav a:hover::after {
+    width: 100%;
+  }
+   
+  /* Seção destaque */
+  .texto {
+    text-align: center;
+    padding: 2em;
+    background: #ffffff;
+    border-bottom: 1px solid #ccc;
+  }
+   
+  .texto h2 {
+    color: #567d70;
+  }
+   
+  /* Cards */
+  .quadrado {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+   
+  .img {
+    background: #ffffff;
+    padding: 1em;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.4s, box-shadow 0.4s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+   
+  /* Transformações com hover */
+  .img:hover {
+    transform: translate(50px, 20px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+ 
+ 
+ 
+  /* Footer */
+  .footer {
+    background: #bfded3;
+    color: #1d1d1d;
+    text-align: center;
+    padding: 1em;
+  }
